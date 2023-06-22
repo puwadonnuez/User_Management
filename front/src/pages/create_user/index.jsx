@@ -79,6 +79,7 @@ const CreateUser = () => {
                 </button>
                 <input
                   type="file"
+                  accept="image/png, image/jpeg" 
                   ref={inputRef}
                   onChange={handleFileChange}
                   style={{ display: "none" }}
