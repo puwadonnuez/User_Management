@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    @apply flex items-center justify-center min-h-screen bg-gray-50;
+}
+.btn {
+    @apply flex gap-2 items-center justify-center py-2 px-4 font-semibold shadow-md rounded-lg;
+}
+.btn.btn-light {
+    @apply bg-white text-gray-500;
+}
+.btn.btn-danger {
+    @apply text-white bg-red-600 shadow-red-400/40;
+}
+
+.btn.btn-primary {
+    @apply text-white bg-blue-600 shadow-red-400/40;
+}
+
+.react-datepicker__input-container {
+    position: static;
+}
+
+.myselect {
+    color:gray;
+    
+}
+.black {    
+    color:black;
+    border-color:black;
+}
+
+
+.example-custom-input {
+    background: url("../public/calendar.svg") no-repeat right;
+    padding: 0.5rem;
+    border-width: 1px;
+    border-radius: 0.375rem;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    /* background-size: 20px; */
+    width: 100%;
+    height: 100%;
+    /* --tw-border-opacity: 1;
+    border-color: (209 213 219 / var(--tw-border-opacity)); */
+}
